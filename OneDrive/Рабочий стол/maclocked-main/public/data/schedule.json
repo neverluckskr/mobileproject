@@ -1,0 +1,493 @@
+{
+  "meta": {
+    "cycleAnchor": "2024-05-13",
+    "timeZone": "Europe/Kyiv",
+    "defaultClass": "10A",
+    "classes": [
+      {
+        "id": "10A",
+        "label": "10-Г (філологічний профіль)"
+      },
+      {
+        "id": "10B",
+        "label": "10-Б (філологічний профіль)"
+      }
+    ]
+  },
+  "slots": [
+    {
+      "number": 1,
+      "start": "08:00",
+      "end": "08:45"
+    },
+    {
+      "number": 2,
+      "start": "08:50",
+      "end": "09:35"
+    },
+    {
+      "number": 3,
+      "start": "09:40",
+      "end": "10:25"
+    },
+    {
+      "number": 4,
+      "start": "10:35",
+      "end": "11:20"
+    },
+    {
+      "number": 5,
+      "start": "11:25",
+      "end": "12:10"
+    },
+    {
+      "number": 6,
+      "start": "12:20",
+      "end": "13:05"
+    },
+    {
+      "number": 7,
+      "start": "13:10",
+      "end": "13:55"
+    },
+    {
+      "number": 8,
+      "start": "14:00",
+      "end": "14:45"
+    }
+  ],
+  "groups": [
+    {
+      "id": "10A",
+      "days": {
+        "monday": [
+          {
+            "slot": 1,
+            "subject": "Біологія",
+            "teacher": "Н. Курбатова",
+            "room": "35"
+          },
+          {
+            "slot": 2,
+            "subject": "Біологія",
+            "teacher": "Н. Курбатова",
+            "room": "35"
+          },
+          {
+            "slot": 3,
+            "subject": "Англійська мова",
+            "teacher": "М. Зiнченко",
+            "room": "50"
+          },
+          {
+            "slot": 4,
+            "subject": "Англійська мова",
+            "teacher": "М. Зiнченко",
+            "room": "50"
+          },
+          {
+            "slot": 5,
+            "subject": {
+              "base": "Географія",
+              "alternate": "Хімія"
+            },
+            "teacher": {
+              "base": "А. Захарченко",
+              "alternate": "М. Литвин"
+            },
+            "room": {
+              "base": "35",
+              "alternate": "407"
+            }
+          },
+          {
+            "slot": 6,
+            "subject": "Історія",
+            "teacher": "I. Тарадайко",
+            "room": "62"
+          },
+          {
+            "slot": 7,
+            "subject": "Фізика",
+            "teacher": "О. Губаненко",
+            "room": "-"
+          }
+        ],
+        "tuesday": [
+          {
+            "slot": 1,
+            "subject": "Фізика",
+            "teacher": "О. Губаненко",
+            "room": "-"
+          },
+          {
+            "slot": 2,
+            "subject": "Фізика",
+            "teacher": "О. Губаненко",
+            "room": "-"
+          },
+          {
+            "slot": 3,
+            "subject": "Математика",
+            "teacher": "Ш. Вiта",
+            "room": "48"
+          },
+          {
+            "slot": 4,
+            "subject": "Математика",
+            "teacher": "Ш. Вiта",
+            "room": "48"
+          },
+          {
+            "slot": 5,
+            "subject": "Історія",
+            "teacher": "I. Тарадайко",
+            "room": "62"
+          },
+          {
+            "slot": 6,
+            "subject": "Англійська мова",
+            "teacher": "М. Зiнченко",
+            "room": "50"
+          },
+          {
+            "slot": 7,
+            "subject": "Англійська мова",
+            "teacher": "М. Зiнченко",
+            "room": "50"
+          }
+        ],
+        "wednesday": [
+          {
+            "slot": 1,
+            "subject": "Фізична культура",
+            "teacher": "М. Токаренко",
+            "room": "Спортзал"
+          },
+          {
+            "slot": 2,
+            "subject": "Зарубіжна література",
+            "teacher": "З. Мущинська",
+            "room": "48"
+          },
+          {
+            "slot": 3,
+            "subject": "Українська література",
+            "teacher": "Н. Тарновська",
+            "room": "61"
+          },
+          {
+            "slot": 4,
+            "subject": "Українська література",
+            "teacher": "Н. Тарновська",
+            "room": "61"
+          },
+          {
+            "slot": 5,
+            "subject": "Математика",
+            "teacher": "Ш. Вiта",
+            "room": "51"
+          },
+          {
+            "slot": 6,
+            "subject": "Математика",
+            "teacher": "Ш. Вiта",
+            "room": "51"
+          },
+          {
+            "slot": 7,
+            "subject": "Географія",
+            "teacher": "А. Захарченко",
+            "room": "35"
+          }
+        ],
+        "thursday": [
+          {
+            "slot": 1,
+            "subject": "Громадянська освіта",
+            "teacher": "А. Трофiмова",
+            "room": "-"
+          },
+          {
+            "slot": 2,
+            "subject": "Громадянська освіта",
+            "teacher": "А. Трофiмова",
+            "room": "-"
+          },
+          {
+            "slot": 3,
+            "subject": "Українська мова",
+            "teacher": "Н. Тарновська",
+            "room": "61"
+          },
+          {
+            "slot": 4,
+            "subject": "Українська мова",
+            "teacher": "Н. Тарновська",
+            "room": "61"
+          },
+          {
+            "slot": 5,
+            "subject": {
+              "base": "Англійська мова",
+              "alternate": "Німецька мова"
+            },
+            "teacher": {
+              "base": "М. Зiнченко",
+              "alternate": "К. Шнайдер"
+            },
+            "room": {
+              "base": "50",
+              "alternate": "219"
+            }
+          },
+          {
+            "slot": 6,
+            "subject": {
+              "base": "Англійська мова",
+              "alternate": "Німецька мова"
+            },
+            "teacher": {
+              "base": "М. Зiнченко",
+              "alternate": "К. Шнайдер"
+            },
+            "room": {
+              "base": "50",
+              "alternate": "219"
+            }
+          },
+          {
+            "slot": 7,
+            "subject": "Фізична культура",
+            "teacher": "М. Токаренко",
+            "room": "Спортзал"
+          }
+        ],
+        "friday": [
+          {
+            "slot": 1,
+            "subject": "Технології",
+            "teacher": "-",
+            "room": "Лаб 1"
+          },
+          {
+            "slot": 2,
+            "subject": "Технології",
+            "teacher": "-",
+            "room": "Лаб 1"
+          },
+          {
+            "slot": 3,
+            "subject": "Інформатика",
+            "teacher": "С. Чернюшок",
+            "room": "72"
+          },
+          {
+            "slot": 4,
+            "subject": "Хімія",
+            "teacher": "Л. Миронова",
+            "room": "67"
+          },
+          {
+            "slot": 5,
+            "subject": "Німецька мова",
+            "teacher": "Н. Березовська",
+            "room": "49"
+          },
+          {
+            "slot": 6,
+            "subject": "Німецька мова",
+            "teacher": "Н. Березовська",
+            "room": "49"
+          },
+          {
+            "slot": 7,
+            "subject": "Фізична культура",
+            "teacher": "М. Токаренко",
+            "room": "Спортзал"
+          },
+          {
+            "slot": 8,
+            "subject": {
+              "base": "Історія",
+              "alternate": null
+            },
+            "teacher": {
+              "base": "I. Тарадайко",
+              "alternate": null
+            },
+            "room": {
+              "base": "62",
+              "alternate": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "10B",
+      "days": {
+        "monday": [
+          {
+            "slot": 1,
+            "subject": "Українська мова",
+            "teacher": "О. Білан",
+            "room": "201"
+          },
+          {
+            "slot": 2,
+            "subject": "Українська мова",
+            "teacher": "О. Білан",
+            "room": "201"
+          },
+          {
+            "slot": 3,
+            "subject": "Українська література",
+            "teacher": "О. Білан",
+            "room": "201"
+          },
+          {
+            "slot": 4,
+            "subject": "Історія України",
+            "teacher": "С. Гавриш",
+            "room": "105"
+          },
+          {
+            "slot": 5,
+            "subject": "Географія",
+            "teacher": "В. Шелюг",
+            "room": "209"
+          },
+          {
+            "slot": 6,
+            "subject": "Хімія",
+            "teacher": "І. Кулик",
+            "room": "404"
+          }
+        ],
+        "tuesday": [
+          {
+            "slot": 1,
+            "subject": "Математика",
+            "teacher": "Т. Лазаренко",
+            "room": "305"
+          },
+          {
+            "slot": 2,
+            "subject": "Математика",
+            "teacher": "Т. Лазаренко",
+            "room": "305"
+          },
+          {
+            "slot": 3,
+            "subject": "Історія України",
+            "teacher": "С. Гавриш",
+            "room": "105"
+          },
+          {
+            "slot": 4,
+            "subject": "Правознавство",
+            "teacher": "О. Сімон",
+            "room": "118"
+          },
+          {
+            "slot": 5,
+            "subject": "Англійська мова",
+            "teacher": "І. Кір'єнко",
+            "room": "214"
+          },
+          {
+            "slot": 6,
+            "subject": "Німецька мова",
+            "teacher": "А. Бауер",
+            "room": "217"
+          }
+        ],
+        "wednesday": [
+          {
+            "slot": 1,
+            "subject": "Фізична культура",
+            "teacher": "О. Романюк",
+            "room": "Зал"
+          },
+          {
+            "slot": 2,
+            "subject": "Фізична культура",
+            "teacher": "О. Романюк",
+            "room": "Зал"
+          },
+          {
+            "slot": 3,
+            "subject": "Зарубіжна література",
+            "teacher": "Т. Вербицька",
+            "room": "205"
+          },
+          {
+            "slot": 4,
+            "subject": "Французька мова",
+            "teacher": "Е. Дюпон",
+            "room": "216"
+          }
+        ],
+        "thursday": [
+          {
+            "slot": 1,
+            "subject": "Українська література",
+            "teacher": "О. Білан",
+            "room": "201"
+          },
+          {
+            "slot": 2,
+            "subject": "Історія України",
+            "teacher": "С. Гавриш",
+            "room": "105"
+          },
+          {
+            "slot": 3,
+            "subject": "Географія",
+            "teacher": "В. Шелюг",
+            "room": "209"
+          },
+          {
+            "slot": 4,
+            "subject": "Біологія",
+            "teacher": "Н. Кравчук",
+            "room": "302"
+          },
+          {
+            "slot": 5,
+            "subject": "Літературне читання",
+            "teacher": "О. Білан",
+            "room": "201"
+          }
+        ],
+        "friday": [
+          {
+            "slot": 1,
+            "subject": "Інформатика",
+            "teacher": "Ю. Петренко",
+            "room": "Лаб 2"
+          },
+          {
+            "slot": 2,
+            "subject": "Інформатика",
+            "teacher": "Ю. Петренко",
+            "room": "Лаб 2"
+          },
+          {
+            "slot": 3,
+            "subject": "Громадянська освіта",
+            "teacher": "Л. Ковтун",
+            "room": "115"
+          },
+          {
+            "slot": 4,
+            "subject": "Мистецтво",
+            "teacher": "Н. Дяченко",
+            "room": "Актова"
+          }
+        ]
+      }
+    }
+  ]
+}
