@@ -1,5 +1,5 @@
 ﻿import Head from "next/head"
-import { motion } from "framer-motion"
+import { motion, Variants } from "framer-motion"
 
 import { Slide } from "../components/layout/Slide"
 import { SlideNav } from "../components/layout/SlideNav"
@@ -379,32 +379,32 @@ const slides: SlideContent[] = [
   }
 ]
 
-const textVariants = {
+const textVariants: Variants = {
   hidden: { opacity: 0, y: 16 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } }
 }
 
-const tagsVariants = {
+const tagsVariants: Variants = {
   hidden: { opacity: 0, y: 12 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease: "easeOut", delay: 0.05 } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease: 'easeOut', delay: 0.05 } }
 }
 
-const cardsVariants = {
+const cardsVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { delayChildren: 0.1, staggerChildren: 0.08, ease: "easeOut" }
+    transition: { delayChildren: 0.1, staggerChildren: 0.08, ease: 'easeOut' }
   }
 }
 
-const cardItemVariants = {
+const cardItemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } }
 }
 
-const footerVariants = {
+const footerVariants: Variants = {
   hidden: { opacity: 0, y: 12 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease: "easeOut", delay: 0.05 } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease: 'easeOut', delay: 0.05 } }
 }
 
 export default function HomePage() {
