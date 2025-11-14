@@ -63,6 +63,42 @@ body {
   pointer-events: none;
 }
 
+.slide-badge {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 52px;
+  height: 58px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.slide-number {
+  font-size: 0.95rem;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+}
+
+.slide-letter {
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.slide-badge small {
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .hero {
   padding: 2rem;
   border-radius: 32px;
@@ -95,26 +131,19 @@ body {
   margin: 0 0 1.5rem;
 }
 
-.hero-actions {
+.hero-note {
   display: flex;
+  gap: 0.75rem;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
+  color: var(--ink-dim);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.75rem 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
-.hero-actions button {
-  padding: 0.85rem 1.75rem;
-  border-radius: 999px;
-  border: none;
-  font-weight: 600;
-  color: #0f0c1d;
-  background: linear-gradient(135deg, #ff9acb 0%, #ff6a95 100%);
-  box-shadow: 0 10px 25px rgba(255, 106, 149, 0.4);
-}
-
-.hero-actions span {
-  color: var(--aqua);
+.hero-note p {
+  margin: 0;
   font-size: 0.9rem;
 }
 
@@ -560,23 +589,17 @@ main .slide {
   margin: 0.5rem 0 0;
 }
 
-.hero-actions span {
-  font-size: 1.5rem;
-}
-
-.hero-actions {
-  align-items: flex-end;
-}
-
 @media (max-width: 420px) {
-  .hero,
-  .about,
-  .culture-card,
-  .gallery article,
   .page {
     padding: 1.5rem;
   }
   main .slide {
     padding: 1.25rem;
+  }
+  .slide-badge {
+    width: 46px;
+    height: 52px;
+    top: 1rem;
+    right: 1rem;
   }
 }
